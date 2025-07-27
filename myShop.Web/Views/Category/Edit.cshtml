@@ -1,0 +1,23 @@
+﻿@model Category
+<form method="post">
+	<input hidden asp-for="Id"/>
+	<div class="mb-3">
+		<label asp-for="Name"></label>
+		<input asp-for="Name" />
+		<span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Description"></label>
+		<input asp-for="Description" />
+		<span asp-validation-for="Description" class="text-danger"></span>
+
+	</div>
+	<div class="mb-3">
+		<button type="submit" class="btn btn-primary">Eidt</button>
+		<a asp-action="Index" asp-controller="Category" class="btn btn-warning">Back To List</a>
+
+	</div>
+</form>
+@section Scripts {
+	<partial name="_ValidationScriptsPartial"></partial>
+}

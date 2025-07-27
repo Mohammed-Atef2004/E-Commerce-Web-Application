@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\visual studio programs\\MVC Course\\myShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -30,64 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "myShop.Web\\appsettings.Development.json",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\appsettings.Development.json*",
-              "RelativeToolTip": "myShop.Web\\appsettings.Development.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T22:14:51.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "myShop.Web\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "myShop.Web\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T22:10:35.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250708220402_first.cs",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Migrations\\20250708220402_first.cs",
-              "RelativeDocumentMoniker": "myShop.Web\\Migrations\\20250708220402_first.cs",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Migrations\\20250708220402_first.cs",
-              "RelativeToolTip": "myShop.Web\\Migrations\\20250708220402_first.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T22:04:03.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "myShop.Web",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
-              "RelativeDocumentMoniker": "myShop.Web\\myShop.Web.csproj",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
-              "RelativeToolTip": "myShop.Web\\myShop.Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-08T21:52:27.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -106,7 +70,120 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Edit.cshtml*",
+              "RelativeToolTip": "myShop.Web\\Views\\Category\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T10:02:34.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T09:51:57.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "myShop.Web\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-26T23:38:50.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Index.cshtml*",
+              "RelativeToolTip": "myShop.Web\\Views\\Category\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-26T23:00:33.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "myShop.Web\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "myShop.Web\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAACIAAACAmJmZmZkpwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:50:30.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "myShop.Web\\appsettings.Development.json",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\appsettings.Development.json",
+              "RelativeToolTip": "myShop.Web\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-08T22:14:51.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "myShop.Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "myShop.Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:10:35.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250708220402_first.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Migrations\\20250708220402_first.cs",
+              "RelativeDocumentMoniker": "myShop.Web\\Migrations\\20250708220402_first.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Migrations\\20250708220402_first.cs",
+              "RelativeToolTip": "myShop.Web\\Migrations\\20250708220402_first.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:04:03.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "myShop.Web.csproj",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
+              "RelativeDocumentMoniker": "myShop.Web\\myShop.Web.csproj",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
+              "RelativeToolTip": "myShop.Web\\myShop.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T21:52:27.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Program.cs",
               "RelativeDocumentMoniker": "myShop.Web\\Program.cs",
@@ -114,8 +191,7 @@
               "RelativeToolTip": "myShop.Web\\Program.cs",
               "ViewState": "AgIAAAYAAADAyczMzMwpwBQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T21:16:17.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T21:16:17.284Z"
             }
           ]
         }

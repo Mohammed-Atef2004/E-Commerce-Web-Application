@@ -462,3 +462,4 @@ D:\visual studio programs\MVC Course\myShop\myShop.Web\obj\Debug\net8.0\refint\m
 D:\visual studio programs\MVC Course\myShop\myShop.Web\obj\Debug\net8.0\myShop.Web.pdb
 D:\visual studio programs\MVC Course\myShop\myShop.Web\obj\Debug\net8.0\myShop.Web.genruntimeconfig.cache
 D:\visual studio programs\MVC Course\myShop\myShop.Web\obj\Debug\net8.0\ref\myShop.Web.dll
+D:\visual studio programs\MVC Course\myShop\myShop.Web\obj\Debug\net8.0\myShop.Web.sourcelink.json
