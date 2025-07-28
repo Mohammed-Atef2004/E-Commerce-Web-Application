@@ -88,9 +88,6 @@ D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\r
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
@@ -101,8 +98,6 @@ D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\r
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
@@ -120,19 +115,15 @@ D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\r
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
@@ -163,7 +154,6 @@ D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\r
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Data.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
@@ -193,7 +183,6 @@ D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\r
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.IO.FileSystem.Watcher.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.IO.IsolatedStorage.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.IO.MemoryMappedFiles.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.IO.Pipelines.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.IO.Pipes.AccessControl.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.IO.Pipes.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.IO.UnmanagedMemoryStream.dll
@@ -272,8 +261,6 @@ D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\r
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Text.Encoding.CodePages.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Text.Encoding.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Text.Encoding.Extensions.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Text.Encodings.Web.dll
-D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Text.Json.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Text.RegularExpressions.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Threading.Channels.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\refs\System.Threading.dll
@@ -311,3 +298,7 @@ D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\obj\Debug\net8.0\m
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\obj\Debug\net8.0\refint\myShop.DataAccess.dll
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\obj\Debug\net8.0\myShop.DataAccess.pdb
 D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\obj\Debug\net8.0\ref\myShop.DataAccess.dll
+D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\obj\Debug\net8.0\myShop.DataAccess.sourcelink.json
+D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\myShop.Entities.dll
+D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\bin\Debug\net8.0\myShop.Entities.pdb
+D:\visual studio programs\MVC Course\myShop\myShop.DataAccess\obj\Debug\net8.0\myShop.D.BF31A137.Up2Date

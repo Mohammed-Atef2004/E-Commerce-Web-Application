@@ -8,6 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.18" />
+    <PackageReference Include="Microsoft.Build.Framework" Version="17.14.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\myShop.Entities\myShop.Entities.csproj" />
   </ItemGroup>
 
 </Project>

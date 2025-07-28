@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "D:\\visual studio programs\\MVC Course\\myShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1B463CE0-614D-4747-A840-9468B0C2ACF7}|myShop.DataAccess\\myShop.DataAccess.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B463CE0-614D-4747-A840-9468B0C2ACF7}|myShop.DataAccess\\myShop.DataAccess.csproj|solutionrelative:myshop.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.entities\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|solutionrelative:myshop.entities\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1B463CE0-614D-4747-A840-9468B0C2ACF7}|myShop.DataAccess\\myShop.DataAccess.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.dataaccess\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B463CE0-614D-4747-A840-9468B0C2ACF7}|myShop.DataAccess\\myShop.DataAccess.csproj|solutionrelative:myshop.dataaccess\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.entities\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|solutionrelative:myshop.entities\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1B463CE0-614D-4747-A840-9468B0C2ACF7}|myShop.DataAccess\\myShop.DataAccess.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.dataaccess\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B463CE0-614D-4747-A840-9468B0C2ACF7}|myShop.DataAccess\\myShop.DataAccess.csproj|solutionrelative:myshop.dataaccess\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\myshop.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\myshop.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\migrations\\20250708220402_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\migrations\\20250708220402_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.entities\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|solutionrelative:myshop.entities\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +34,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "myShop.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeToolTip": "myShop.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ViewState": "AgIAAA0AAAAAl5mZmZkdwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T14:27:29.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IunitOfWork.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IunitOfWork.cs",
+              "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\IunitOfWork.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IunitOfWork.cs",
+              "RelativeToolTip": "myShop.Entities\\Repositories\\IunitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T14:26:20.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T13:40:52.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "myShop.DataAccess\\Implementation\\CategoryRepository.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\CategoryRepository.cs",
+              "RelativeToolTip": "myShop.DataAccess\\Implementation\\CategoryRepository.cs",
+              "ViewState": "AgIAAAcAAAAAZWZmZmYgwBgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T13:39:10.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T13:31:29.164Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -70,128 +119,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "myShop.Web\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-27T10:02:34.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "myShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-27T09:51:57.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "myShop.Web\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-26T23:38:50.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "myShop.Web\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-26T23:00:33.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "myShop.Web\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "myShop.Web\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACIAAACAmJmZmZkpwDgAAAAFAAAAAAAAAA==",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "myShop.DataAccess\\Implementation\\GenericRepository.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\GenericRepository.cs",
+              "RelativeToolTip": "myShop.DataAccess\\Implementation\\GenericRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAWwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T22:50:30.295Z",
+              "WhenOpened": "2025-07-28T13:16:13.795Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "myShop.Web\\appsettings.Development.json",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\appsettings.Development.json",
-              "RelativeToolTip": "myShop.Web\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T22:14:51.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "myShop.Web\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "myShop.Web\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T22:10:35.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250708220402_first.cs",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Migrations\\20250708220402_first.cs",
-              "RelativeDocumentMoniker": "myShop.Web\\Migrations\\20250708220402_first.cs",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Migrations\\20250708220402_first.cs",
-              "RelativeToolTip": "myShop.Web\\Migrations\\20250708220402_first.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T22:04:03.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "myShop.Web.csproj",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
-              "RelativeDocumentMoniker": "myShop.Web\\myShop.Web.csproj",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
-              "RelativeToolTip": "myShop.Web\\myShop.Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-08T21:52:27.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Program.cs",
-              "RelativeDocumentMoniker": "myShop.Web\\Program.cs",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Program.cs",
-              "RelativeToolTip": "myShop.Web\\Program.cs",
-              "ViewState": "AgIAAAYAAADAyczMzMwpwBQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T21:16:17.284Z"
             }
           ]
         }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using myShop.Web.Data;
-using myShop.Web.Models;
+using myShop.DataAccess.Data;
+using myShop.Entities.Models;
 
 namespace myShop.Web.Controllers
 {
@@ -53,6 +53,33 @@ namespace myShop.Web.Controllers
                 return RedirectToAction("Index");
             }
             return View(category);
+        }
+        [HttpGet]
+        public IActionResult Delete(int? Id)
+        {
+            if (Id == null || Id == 0)
+            {
+                return NotFound();
+            }
+            var category = _context.Categories.FirstOrDefault(c => c.Id == Id);
+
+            return View(category);
+        }
+        [HttpPost]
+        public IActionResult DeleteCategory(int? Id)
+        {
+            if (Id == null || Id == 0)
+            {
+                return NotFound();
+            }
+            var category = _context.Categories.FirstOrDefault(c => c.Id == Id);
+            if (category != null)
+            {
+                _context.Categories.Remove(category);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return NotFound();
         }
     }
 }

@@ -1,10 +1,12 @@
-﻿@model IEnumerable<Category>
+﻿@using myShop.Entities.Models;
+@model IEnumerable<Category>
 <h3>Categories List</h3>
 <table class="table-hover" width="100%">
 	<tr>
 		<td>Name</td>
 		<td>Description</td>
 		<td>Date Created</td>
+		<td>Actions</td>
 	</tr>
 	@foreach(var item in Model)
 	{
