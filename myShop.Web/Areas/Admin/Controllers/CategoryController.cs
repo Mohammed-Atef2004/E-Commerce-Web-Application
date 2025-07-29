@@ -2,8 +2,9 @@
 using myShop.DataAccess.Data;
 using myShop.Entities.Models;
 using myShop.Entities.Repositories;
-namespace myShop.Web.Controllers
+namespace myShop.Web.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private  IunitOfWork _unitOfWork;

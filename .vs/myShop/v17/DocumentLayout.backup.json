@@ -98,9 +98,9 @@
               "Title": "_Toaster.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Toaster.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_Toaster.cshtml",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Toaster.cshtml*",
-              "RelativeToolTip": "myShop.Web\\Views\\Shared\\_Toaster.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Toaster.cshtml",
+              "RelativeToolTip": "myShop.Web\\Views\\Shared\\_Toaster.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-29T07:25:24.604Z",
               "EditorCaption": ""
@@ -127,8 +127,7 @@
               "RelativeToolTip": "myShop.Web\\Views\\Category\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T23:29:18.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T23:29:18.059Z"
             },
             {
               "$type": "Document",
@@ -176,8 +175,7 @@
               "RelativeToolTip": "myShop.Web\\Views\\Category\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T23:24:29.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T23:24:29.873Z"
             },
             {
               "$type": "Document",
@@ -189,8 +187,7 @@
               "RelativeToolTip": "myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
               "ViewState": "AgIAACIBAAAAMDMzMzMbwDYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T16:08:55.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T16:08:55.324Z"
             },
             {
               "$type": "Document",
@@ -214,8 +211,7 @@
               "RelativeToolTip": "myShop.Web\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAABYAAAAA//////8vwFEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T15:26:37.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T15:26:37.235Z"
             },
             {
               "$type": "Document",

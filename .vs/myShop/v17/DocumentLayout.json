@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\visual studio programs\\MVC Course\\myShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\shared\\_toaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\shared\\_toaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -95,6 +99,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "myShop.Web\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "myShop.Web\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-29T19:31:38.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Toaster.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Toaster.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_Toaster.cshtml",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Delete.cshtml",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Index.cshtml",
@@ -127,12 +144,11 @@
               "RelativeToolTip": "myShop.Web\\Views\\Category\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T23:29:18.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T23:29:18.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\Error.cshtml",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Edit.cshtml",
@@ -156,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_Layout.cshtml",
@@ -168,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Category\\Create.cshtml",
@@ -176,12 +192,11 @@
               "RelativeToolTip": "myShop.Web\\Views\\Category\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T23:24:29.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T23:24:29.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Dashboard.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
@@ -189,12 +204,11 @@
               "RelativeToolTip": "myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
               "ViewState": "AgIAACIBAAAAMDMzMzMbwDYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T16:08:55.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T16:08:55.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Program.cs",
               "RelativeDocumentMoniker": "myShop.Web\\Program.cs",
@@ -206,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "myShop.Web\\Controllers\\CategoryController.cs",
@@ -214,12 +228,11 @@
               "RelativeToolTip": "myShop.Web\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAABYAAAAA//////8vwFEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T15:26:37.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T15:26:37.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "myShop.DataAccess\\Implementation\\UnitOfWork.cs",
@@ -231,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IunitOfWork.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IunitOfWork.cs",
               "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\IunitOfWork.cs",
@@ -243,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\ICategoryRepository.cs",
@@ -255,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "myShop.DataAccess\\Implementation\\CategoryRepository.cs",
@@ -267,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\IGenericRepository.cs",
@@ -279,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\Implementation\\GenericRepository.cs",
               "RelativeDocumentMoniker": "myShop.DataAccess\\Implementation\\GenericRepository.cs",
