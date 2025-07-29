@@ -1,0 +1,45 @@
+﻿@using myShop.Entities.Models;
+@{
+	ViewBag.Title = "Product Management";
+	ViewBag.CardTitle = "View Products";
+	Layout = "~/Views/Shared/_Dashboard.cshtml";
+	<!-- Corrected layout path -->
+}
+@model IEnumerable<Product>
+<div>
+	<a href="Admin/Product/Create" class="btn btn-primary">Create</a>
+</div>
+<hr />
+<table class="table-hover" width="100%">
+	<tr>
+		<td>Name</td>
+		<td>Description</td>
+		<td>Price</td>
+		<td>Category</td>
+		<td>Image</td>
+	</tr>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@item.Name</td>
+			<td>@item.Description</td>
+			<td>@item.Price</td>
+			<td>@item.Category</td>
+			<td>
+				@if (!string.IsNullOrEmpty(@item.Img) && !item.Img.Equals("Category Image"))
+				{
+					<img src="@Url.Content(item.Img)" alt="Category Image" width="50" />
+				}
+				else
+				{
+					<span>No Image</span>
+				}
+			</td>
+			<td>
+				<a href="/Admin/Product/Edit/@item.Id" class="btn btn-success">Edit</a>
+				<a href="/Admin/Product/@item.Id" class="btn btn-danger">Delete</a>
+
+			</td>
+		</tr>
+	}
+</table>

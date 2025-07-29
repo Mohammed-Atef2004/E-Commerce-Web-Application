@@ -136,6 +136,7 @@ wwwroot\dist\js\pages\dashboard.js
 wwwroot\dist\js\pages\dashboard2.js
 wwwroot\dist\js\pages\dashboard3.js
 wwwroot\favicon.ico
+wwwroot\Images\Products\8c5f4e48-b942-41ba-ba70-67312d90a8ca.jpg
 wwwroot\img\AdminLTELogo.png
 wwwroot\img\avatar.png
 wwwroot\img\avatar2.png
