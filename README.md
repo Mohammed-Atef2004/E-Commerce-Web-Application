@@ -142,6 +142,8 @@ ECommerceApp/
 
 ## 📸 Screenshots
 
+Admin Dashboard
+<img width="1351" height="622" alt="image" src="https://github.com/user-attachments/assets/07ca761e-d1bc-4307-b693-3bfb09706133" />
 
 ---
 
