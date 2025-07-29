@@ -29,6 +29,7 @@ namespace myShop.Web.Controllers
             {
                _unitOfWork.Category.Add(category);
                 _unitOfWork.Complete();
+                TempData["Create"] = "Data Has Created Successfully";
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -50,6 +51,8 @@ namespace myShop.Web.Controllers
             {
                 _unitOfWork.Category.Update(category);
                 _unitOfWork.Complete();
+                TempData["Update"] = "Data Has Updated Successfully";
+
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -77,6 +80,8 @@ namespace myShop.Web.Controllers
             {
                 _unitOfWork.Category.Remove(category);
                 _unitOfWork.Complete();
+                TempData["Delete"] = "Data Has Deleted Successfully";
+
                 return RedirectToAction("Index");
             }
             return NotFound();

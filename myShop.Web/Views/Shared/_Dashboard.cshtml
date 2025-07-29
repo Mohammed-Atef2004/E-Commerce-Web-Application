@@ -267,6 +267,7 @@
                         </div>
                     </div>
                     <div class="card-body">
+                        <partial name="_Toaster"></partial>
                         @RenderBody()
                     </div>
                     <!-- /.card-body -->
@@ -301,6 +302,8 @@
     <script src="/dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="/dist/js/demo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>
