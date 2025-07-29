@@ -9,8 +9,8 @@ namespace myShop.Entities.Repositories
 {
     public interface IGenericRepository<T> where T : class
     {
-        IEnumerable<T> GetAll(Expression<Func<T,bool>>predict,string? includeword);
-        T GetFirstOrDefault(Expression<Func<T, bool>> predict, string? includeword);
+        IEnumerable<T> GetAll(Expression<Func<T, bool>>? predict = null, string? includeword = null);
+        T GetFirstOrDefault(Expression<Func<T, bool>>? predict = null, string? includeword = null);
         void Add(T entity);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);

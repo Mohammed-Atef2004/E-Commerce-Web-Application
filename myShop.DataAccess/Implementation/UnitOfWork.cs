@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace myShop.DataAccess.Implementation
 {
-    internal class UnitOfWork : IunitOfWork
+    public class UnitOfWork : IunitOfWork
     {
         private readonly ApplicationDbContext _context;
         public ICategoryRepository Category { get;private set; }

@@ -1,4 +1,10 @@
 ﻿@using myShop.Entities.Models;
+@{
+	ViewBag.Title = "Category Management";
+	ViewBag.CardTitle = "Edit Category";
+	Layout = "~/Views/Shared/_Dashboard.cshtml";
+	<!-- Corrected layout path -->
+}
 @model Category
 <form method="post">
 	<input hidden asp-for="Id"/>

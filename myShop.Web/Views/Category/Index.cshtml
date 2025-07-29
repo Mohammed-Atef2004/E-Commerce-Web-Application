@@ -1,6 +1,15 @@
 ﻿@using myShop.Entities.Models;
+@{
+	ViewBag.Title = "Category Management";
+	ViewBag.CardTitle = "View Categories";
+	Layout = "~/Views/Shared/_Dashboard.cshtml";
+	<!-- Corrected layout path -->
+}
 @model IEnumerable<Category>
-<h3>Categories List</h3>
+<div>
+<a href="/Category/Create" class="btn btn-primary">Create</a>
+</div>
+<hr />
 <table class="table-hover" width="100%">
 	<tr>
 		<td>Name</td>

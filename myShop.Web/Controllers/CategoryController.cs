@@ -1,19 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using myShop.DataAccess.Data;
 using myShop.Entities.Models;
-
+using myShop.Entities.Repositories;
 namespace myShop.Web.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context;
-        public CategoryController(ApplicationDbContext context)
+        private  IunitOfWork _unitOfWork;
+        public CategoryController(IunitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork=unitOfWork;
         }
         public IActionResult Index()
         {
-            var categories = _context.Categories.ToList();
+            var categories = _unitOfWork.Category.GetAll();
             return View(categories);
         }
         [HttpGet]
@@ -27,8 +27,8 @@ namespace myShop.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(category);
-                _context.SaveChanges();
+               _unitOfWork.Category.Add(category);
+                _unitOfWork.Complete();
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -40,7 +40,7 @@ namespace myShop.Web.Controllers
             {
                 return NotFound();
             }
-            var category = _context.Categories.FirstOrDefault(c => c.Id == Id);
+            Category category=_unitOfWork.Category.GetFirstOrDefault(x=>x.Id==Id);
             return View(category);
         }
         [HttpPost]
@@ -48,8 +48,8 @@ namespace myShop.Web.Controllers
         {
             if(ModelState.IsValid)
             {
-                _context.Categories.Update(category);
-                _context.SaveChanges();
+                _unitOfWork.Category.Update(category);
+                _unitOfWork.Complete();
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -61,7 +61,7 @@ namespace myShop.Web.Controllers
             {
                 return NotFound();
             }
-            var category = _context.Categories.FirstOrDefault(c => c.Id == Id);
+            Category category = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == Id);
 
             return View(category);
         }
@@ -72,11 +72,11 @@ namespace myShop.Web.Controllers
             {
                 return NotFound();
             }
-            var category = _context.Categories.FirstOrDefault(c => c.Id == Id);
+            Category category = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == Id);
             if (category != null)
             {
-                _context.Categories.Remove(category);
-                _context.SaveChanges();
+                _unitOfWork.Category.Remove(category);
+                _unitOfWork.Complete();
                 return RedirectToAction("Index");
             }
             return NotFound();

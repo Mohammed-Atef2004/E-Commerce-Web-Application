@@ -25,7 +25,7 @@ namespace myShop.DataAccess.Implementation
             _dbSet.Add(entity);
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>> predict, string? includeword)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? predict=null, string? includeword= null)
         {
             IQueryable<T> query = _dbSet;
             if(predict != null)
@@ -42,7 +42,7 @@ namespace myShop.DataAccess.Implementation
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> predict, string? includeword)
+        public T GetFirstOrDefault(Expression<Func<T, bool>>? predict = null, string? includeword = null)
         {
             IQueryable<T> query = _dbSet;
             if (predict != null)
