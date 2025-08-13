@@ -136,7 +136,11 @@ wwwroot\dist\js\pages\dashboard.js
 wwwroot\dist\js\pages\dashboard2.js
 wwwroot\dist\js\pages\dashboard3.js
 wwwroot\favicon.ico
-wwwroot\Images\Products\8c5f4e48-b942-41ba-ba70-67312d90a8ca.jpg
+wwwroot\Images\Products\12824aa5-3aab-4df8-8396-98dabcac671c.jpg
+wwwroot\Images\Products\3de6aba9-9ed1-46f5-aa95-71ac9e5a252a.jfif
+wwwroot\Images\Products\579d8dd0-5119-49cf-8e13-5e6b60db8aec.jfif
+wwwroot\Images\Products\9077609e-e815-4013-bdc3-dcb1db77503d.png
+wwwroot\Images\Products\e2b87393-d543-4fe7-a4a6-d20fc19e6451.jfif
 wwwroot\img\AdminLTELogo.png
 wwwroot\img\avatar.png
 wwwroot\img\avatar2.png
@@ -179,6 +183,7 @@ wwwroot\js\demo.js
 wwwroot\js\pages\dashboard.js
 wwwroot\js\pages\dashboard2.js
 wwwroot\js\pages\dashboard3.js
+wwwroot\js\Products.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

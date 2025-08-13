@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\visual studio programs\\MVC Course\\myShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.entities\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|solutionrelative:myshop.entities\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.web\\views\\shared\\_toaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDBEAFAC-9465-42BC-8A44-3BA7C493E1CF}|myShop.Web\\myShop.Web.csproj|solutionrelative:myshop.web\\views\\shared\\_toaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.entities\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|solutionrelative:myshop.entities\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.entities\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|solutionrelative:myshop.entities\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|d:\\visual studio programs\\mvc course\\myshop\\myshop.entities\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A10CA60-BAE2-458F-AC90-D32E2FA4751D}|myShop.Entities\\myShop.Entities.csproj|solutionrelative:myshop.entities\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,55 +70,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAABoPR4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T23:06:04.791Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "myShop.Entities\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:06:24.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "myShop.Entities\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:06:21.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "myShop.Entities\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "myShop.Entities\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T21:48:46.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "myShop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeToolTip": "myShop.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAIAAAAANTMzMzMrwA8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAMzMzMzMbwC4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T22:56:28.082Z",
+              "WhenOpened": "2025-07-30T09:56:43.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "myShop.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T09:41:55.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Products.js",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\wwwroot\\js\\Products.js",
+              "RelativeDocumentMoniker": "myShop.Web\\wwwroot\\js\\Products.js",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\wwwroot\\js\\Products.js",
+              "RelativeToolTip": "myShop.Web\\wwwroot\\js\\Products.js",
+              "ViewState": "AgIAACIAAACAmZmZmZn5vzQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-30T09:08:52.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Dashboard.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
+              "RelativeToolTip": "myShop.Web\\Views\\Shared\\_Dashboard.cshtml",
+              "ViewState": "AgIAACYBAADwaGZmZmYkwDUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T08:58:47.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "myShop.Web\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAlZmZmZkBwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T23:06:04.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "myShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "myShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAC8AAABA+v////8bwDoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAkwIoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T22:54:29.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "myShop.Entities\\Models\\Product.cs",
-              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\Models\\Product.cs",
-              "RelativeToolTip": "myShop.Entities\\Models\\Product.cs",
-              "ViewState": "AgIAABIAAAAAJTMzMzMDwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T22:53:13.792Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "_Toaster.cshtml",
+              "DocumentMoniker": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Toaster.cshtml",
+              "RelativeDocumentMoniker": "myShop.Web\\Views\\Shared\\_Toaster.cshtml",
+              "ToolTip": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\Views\\Shared\\_Toaster.cshtml",
+              "RelativeToolTip": "myShop.Web\\Views\\Shared\\_Toaster.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T07:44:26.822Z"
             }
           ]
         }
