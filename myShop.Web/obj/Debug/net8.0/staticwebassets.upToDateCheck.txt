@@ -65,6 +65,9 @@ wwwroot\css\alt\adminlte.plugins.css.map
 wwwroot\css\alt\adminlte.plugins.min.css
 wwwroot\css\alt\adminlte.plugins.min.css.map
 wwwroot\css\site.css
+wwwroot\customer\assets\favicon.ico
+wwwroot\customer\css\styles.css
+wwwroot\customer\js\scripts.js
 wwwroot\dist\css\adminlte.css
 wwwroot\dist\css\adminlte.css.map
 wwwroot\dist\css\adminlte.min.css
@@ -139,6 +142,8 @@ wwwroot\favicon.ico
 wwwroot\Images\Products\12824aa5-3aab-4df8-8396-98dabcac671c.jpg
 wwwroot\Images\Products\3de6aba9-9ed1-46f5-aa95-71ac9e5a252a.jfif
 wwwroot\Images\Products\579d8dd0-5119-49cf-8e13-5e6b60db8aec.jfif
+wwwroot\Images\Products\81e48ad7-d163-4e4c-9b3a-33db5bfd0c41.jfif
+wwwroot\Images\Products\84b5faa2-4e65-41c7-bfe8-baabbdc84b4a.png
 wwwroot\Images\Products\9077609e-e815-4013-bdc3-dcb1db77503d.png
 wwwroot\Images\Products\e2b87393-d543-4fe7-a4a6-d20fc19e6451.jfif
 wwwroot\img\AdminLTELogo.png

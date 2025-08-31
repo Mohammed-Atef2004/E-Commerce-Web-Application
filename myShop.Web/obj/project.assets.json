@@ -7995,23 +7995,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ashrafshams\\.nuget\\packages\\": {},
+    "C:\\Users\\moham\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
+      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Web\\myShop.Web.csproj",
       "projectName": "myShop.Web",
-      "projectPath": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\myShop.Web.csproj",
-      "packagesPath": "C:\\Users\\Ashrafshams\\.nuget\\packages\\",
-      "outputPath": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Web\\obj\\",
+      "projectPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Web\\myShop.Web.csproj",
+      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+      "outputPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ashrafshams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8026,11 +8026,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\myShop.DataAccess.csproj": {
-              "projectPath": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.DataAccess\\myShop.DataAccess.csproj"
+            "D:\\visual-studio-programs\\E-Commerce-System\\myShop.DataAccess\\myShop.DataAccess.csproj": {
+              "projectPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.DataAccess\\myShop.DataAccess.csproj"
             },
-            "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\myShop.Entities.csproj": {
-              "projectPath": "D:\\visual studio programs\\MVC Course\\myShop\\myShop.Entities\\myShop.Entities.csproj"
+            "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\myShop.Entities.csproj": {
+              "projectPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\myShop.Entities.csproj"
             }
           }
         }
@@ -8099,7 +8099,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
