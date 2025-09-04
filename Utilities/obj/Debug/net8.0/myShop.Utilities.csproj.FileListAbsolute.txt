@@ -1,0 +1,13 @@
+D:\visual-studio-programs\E-Commerce\Utilities\bin\Debug\net8.0\myShop.Utilities.deps.json
+D:\visual-studio-programs\E-Commerce\Utilities\bin\Debug\net8.0\myShop.Utilities.dll
+D:\visual-studio-programs\E-Commerce\Utilities\bin\Debug\net8.0\myShop.Utilities.pdb
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.AssemblyReference.cache
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfoInputs.cache
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.AssemblyInfo.cs
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.csproj.CoreCompileInputs.cache
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.sourcelink.json
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.dll
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\refint\myShop.Utilities.dll
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\myShop.Utilities.pdb
+D:\visual-studio-programs\E-Commerce\Utilities\obj\Debug\net8.0\ref\myShop.Utilities.dll

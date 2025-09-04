@@ -102,7 +102,7 @@ namespace myShop.Web.Areas.Identity.Pages.Account
         {
             if(!_roleManager.RoleExistsAsync(SD.AdminRole).GetAwaiter().GetResult())
             {
-                _roleManager.CreateAsync(new IdentityRole(SD.AdminRole)).GetAwaiter().GetResult()
+                _roleManager.CreateAsync(new IdentityRole(SD.AdminRole)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.CustomerRole)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.EditorRole)).GetAwaiter().GetResult();
             }
