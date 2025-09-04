@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\visual-studio-programs\\E-Commerce-System\\myShop.DataAccess\\myShop.DataAccess.csproj": {}
+    "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\visual-studio-programs\\E-Commerce-System\\myShop.DataAccess\\myShop.DataAccess.csproj": {
+    "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.DataAccess\\myShop.DataAccess.csproj",
+        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj",
         "projectName": "myShop.DataAccess",
-        "projectPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.DataAccess\\myShop.DataAccess.csproj",
+        "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.DataAccess\\obj\\",
+        "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\myShop.Entities.csproj": {
-                "projectPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\myShop.Entities.csproj"
+              "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj": {
+                "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[8.0.18, )"
@@ -87,14 +91,14 @@
         }
       }
     },
-    "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\myShop.Entities.csproj": {
+    "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\myShop.Entities.csproj",
+        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj",
         "projectName": "myShop.Entities",
-        "projectPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\myShop.Entities.csproj",
+        "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\visual-studio-programs\\E-Commerce-System\\myShop.Entities\\obj\\",
+        "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -133,6 +137,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[8.0.18, )"
