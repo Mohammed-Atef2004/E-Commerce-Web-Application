@@ -3,7 +3,7 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "myShop.Web\\myShop.Web.csproj",
+        "Path": "myShop.Web\\PL.csproj",
         "Action": "Start"
       }
     ]

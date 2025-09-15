@@ -3544,9 +3544,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj",
-      "projectName": "myShop.Entities",
-      "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj",
+      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\BLL.csproj",
+      "projectName": "BLL",
+      "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\BLL.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
       "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\obj\\",
       "projectStyle": "PackageReference",

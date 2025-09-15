@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wfAksJo43E0=",
+  "dgSpecHash": "l2ZzpiETndc=",
   "success": true,
-  "projectFilePath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj",
+  "projectFilePath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

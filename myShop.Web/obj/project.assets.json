@@ -3210,24 +3210,7 @@
           }
         }
       },
-      "myShop.DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.18",
-          "Microsoft.Build.Framework": "17.14.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
-          "myShop.Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/myShop.DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/myShop.DataAccess.dll": {}
-        }
-      },
-      "myShop.Entities/1.0.0": {
+      "BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -3236,23 +3219,27 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7"
         },
         "compile": {
-          "bin/placeholder/myShop.Entities.dll": {}
+          "bin/placeholder/BLL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/myShop.Entities.dll": {}
+          "bin/placeholder/BLL.dll": {}
         }
       },
-      "myShop.Utilities/1.0.0": {
+      "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.UI": "8.0.11"
+          "BLL": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.18",
+          "Microsoft.Build.Framework": "17.14.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7"
         },
         "compile": {
-          "bin/placeholder/myShop.Utilities.dll": {}
+          "bin/placeholder/DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/myShop.Utilities.dll": {}
+          "bin/placeholder/DAL.dll": {}
         }
       }
     }
@@ -8711,24 +8698,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "myShop.DataAccess/1.0.0": {
+    "BLL/1.0.0": {
       "type": "project",
-      "path": "../myShop.DataAccess/myShop.DataAccess.csproj",
-      "msbuildProject": "../myShop.DataAccess/myShop.DataAccess.csproj"
+      "path": "../myShop.Entities/BLL.csproj",
+      "msbuildProject": "../myShop.Entities/BLL.csproj"
     },
-    "myShop.Entities/1.0.0": {
+    "DAL/1.0.0": {
       "type": "project",
-      "path": "../myShop.Entities/myShop.Entities.csproj",
-      "msbuildProject": "../myShop.Entities/myShop.Entities.csproj"
-    },
-    "myShop.Utilities/1.0.0": {
-      "type": "project",
-      "path": "../Utilities/myShop.Utilities.csproj",
-      "msbuildProject": "../Utilities/myShop.Utilities.csproj"
+      "path": "../myShop.DataAccess/DAL.csproj",
+      "msbuildProject": "../myShop.DataAccess/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BLL >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.11",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.11",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 8.0.18",
@@ -8737,10 +8721,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.7",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
-      "myShop.DataAccess >= 1.0.0",
-      "myShop.Entities >= 1.0.0",
-      "myShop.Utilities >= 1.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
     ]
   },
   "packageFolders": {
@@ -8750,9 +8731,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.Web\\myShop.Web.csproj",
-      "projectName": "myShop.Web",
-      "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Web\\myShop.Web.csproj",
+      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.Web\\PL.csproj",
+      "projectName": "PL",
+      "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Web\\PL.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
       "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Web\\obj\\",
       "projectStyle": "PackageReference",
@@ -8775,14 +8756,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj": {
-              "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj"
+            "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\DAL.csproj": {
+              "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\DAL.csproj"
             },
-            "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj": {
-              "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj"
-            },
-            "D:\\visual-studio-programs\\E-Commerce\\Utilities\\myShop.Utilities.csproj": {
-              "projectPath": "D:\\visual-studio-programs\\E-Commerce\\Utilities\\myShop.Utilities.csproj"
+            "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\BLL.csproj": {
+              "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\BLL.csproj"
             }
           }
         }

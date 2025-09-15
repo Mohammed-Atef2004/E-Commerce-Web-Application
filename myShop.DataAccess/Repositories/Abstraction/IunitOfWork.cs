@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace myShop.DAL.Repositories.Abstraction
+{
+    public interface IunitOfWork:IDisposable
+    {
+         ICategoryRepository Category { get; }
+         IProductRepository Product { get; }
+        int Complete();
+    }
+}

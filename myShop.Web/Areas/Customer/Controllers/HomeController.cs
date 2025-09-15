@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using myShop.Entities.Repositories;
-using myShop.Entities.ViewModels;
+using myShop.DAL.Repositories;
+using myShop.DAL.Repositories.Abstraction;
+using myShop.DAL.ViewModels;
 
-namespace myShop.Web.Areas.Customer.Controllers
+namespace myShop.PL.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using myShop.DataAccess.Data;
-using myShop.Entities.Models;
-using myShop.Entities.Repositories;
-namespace myShop.Web.Areas.Admin.Controllers
+using myShop.DAL.Data;
+using myShop.DAL.Models;
+using myShop.DAL.Repositories.Abstraction;
+namespace myShop.PL.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller

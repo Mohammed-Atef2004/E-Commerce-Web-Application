@@ -1,4 +1,4 @@
-﻿namespace myShop.Entities
+﻿namespace myShop.DAL
 {
     public class Class1
     {

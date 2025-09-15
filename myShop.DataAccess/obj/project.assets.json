@@ -1348,7 +1348,7 @@
           }
         }
       },
-      "myShop.Entities/1.0.0": {
+      "BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1357,10 +1357,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7"
         },
         "compile": {
-          "bin/placeholder/myShop.Entities.dll": {}
+          "bin/placeholder/BLL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/myShop.Entities.dll": {}
+          "bin/placeholder/BLL.dll": {}
         }
       }
     }
@@ -3642,19 +3642,19 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "myShop.Entities/1.0.0": {
+    "BLL/1.0.0": {
       "type": "project",
-      "path": "../myShop.Entities/myShop.Entities.csproj",
-      "msbuildProject": "../myShop.Entities/myShop.Entities.csproj"
+      "path": "../myShop.Entities/BLL.csproj",
+      "msbuildProject": "../myShop.Entities/BLL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BLL >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 8.0.18",
       "Microsoft.Build.Framework >= 17.14.8",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
-      "myShop.Entities >= 1.0.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7"
     ]
   },
   "packageFolders": {
@@ -3664,9 +3664,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj",
-      "projectName": "myShop.DataAccess",
-      "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\myShop.DataAccess.csproj",
+      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\DAL.csproj",
+      "projectName": "DAL",
+      "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\DAL.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
       "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
@@ -3689,8 +3689,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj": {
-              "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\myShop.Entities.csproj"
+            "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\BLL.csproj": {
+              "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myShop.Entities\\BLL.csproj"
             }
           }
         }

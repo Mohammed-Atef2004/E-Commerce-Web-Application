@@ -1,11 +1,11 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using myShop.DataAccess;
-using myShop.Entities.Models;
-using myShop.Entities.Repositories;
-using myShop.Entities.ViewModels;
-namespace myshop.Web.Areas.Admin.Controllers
+using myShop.DAL;
+using myShop.DAL.Models;
+using myShop.DAL.Repositories.Abstraction;
+using myShop.DAL.ViewModels;
+namespace myshop.PL.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller

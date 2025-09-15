@@ -1,7 +1,7 @@
-﻿using myShop.Entities.Models;
+﻿using myShop.DAL.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-namespace myShop.DataAccess.Data
+namespace myShop.DAL.Data
 {
     public class ApplicationDbContext: IdentityDbContext
     {

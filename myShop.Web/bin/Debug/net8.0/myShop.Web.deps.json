@@ -47,6 +47,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
           "myShop.DataAccess": "1.0.0",
           "myShop.Entities": "1.0.0",
+          "myShop.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.BearerToken": "8.0.0.0",
@@ -2974,6 +2975,20 @@
         },
         "compile": {
           "myShop.Entities.dll": {}
+        }
+      },
+      "myShop.Utilities/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.11"
+        },
+        "runtime": {
+          "myShop.Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "myShop.Utilities.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -5965,6 +5980,11 @@
       "sha512": ""
     },
     "myShop.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "myShop.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

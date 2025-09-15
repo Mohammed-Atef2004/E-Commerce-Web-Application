@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using myShop.DataAccess.Data;
-using myShop.Entities.Repositories;
-using myShop.DataAccess.Implementation;
+using myShop.DAL.Data;
+using myShop.DAL.Repositories.Abstraction;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using myShop.Utilities;
+using DAL.Repositories.Implementation;
+using BLL.Helpers;
 
 namespace myShop.Web
 {
@@ -23,6 +23,7 @@ namespace myShop.Web
             builder.Services.AddSingleton<IEmailSender,EmailSender>();
             builder.Services.AddIdentity<IdentityUser,IdentityRole>()
                 .AddDefaultTokenProviders()//relate to email confirmation and password reset
+                .AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddScoped<IunitOfWork, UnitOfWork>();
             builder.Services.AddHttpContextAccessor();
