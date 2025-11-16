@@ -13,6 +13,7 @@ A comprehensive E-commerce solution built with **ASP.NET Core MVC**, implementin
 
 - [About The Project](#about-the-project)
 - [Architecture Overview](#architecture-overview)
+- [ERD Diagram](#EDR-Diagram)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -66,7 +67,11 @@ The project follows a **4-tier layered architecture**:
 │  Repositories, UnitOfWork, EF Core Context  │
 └─────────────────────────────────────────────┘
 ```
+### 🗂️ ERD Diagram
+<img width="952" height="504" alt="image" src="https://github.com/user-attachments/assets/20ab20b0-c844-4271-80d2-2176affcfdda" />
 
+
+---
 ### 🗂️ Layer Breakdown
 
 #### **1. myshop.Web** - Presentation Layer
