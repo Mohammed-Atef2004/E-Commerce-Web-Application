@@ -1,8 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
-using myShop.DAL.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using myshop.Entities.Models;
 using System.Diagnostics;
 
-namespace myShop.Web.Controllers
+namespace myshop.Web.Controllers
 {
     public class HomeController : Controller
     {

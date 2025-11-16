@@ -1,23 +1,26 @@
-﻿<!-- Load jQuery first (required for Toastr) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Load Toastr CSS & JS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+﻿@if(TempData["Create"] != null)
+{  
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+    toastr.success("@TempData["Create"]")
+    </script>
+}
+
 @if (TempData["Update"] != null)
 {
-    <script type="text/javascript">
-        toastr.info('@TempData["Update"]');
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        toastr.info("@TempData["Update"]")
     </script>
 }
+
 @if (TempData["Delete"] != null)
 {
-    <script type="text/javascript">
-        toastr.error('@TempData["Delete"]');
-    </script>
-}
-@if (TempData["Create"] != null)
-{
-    <script type="text/javascript">
-        toastr.success('@TempData["Create"]');
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        toastr.error("@TempData["Delete"]")
     </script>
 }

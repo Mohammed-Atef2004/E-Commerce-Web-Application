@@ -1,13 +1,11 @@
-﻿@model myShop.DAL.Models.Category
+﻿@model Category
 
 @{
-    ViewBag.Title = "Category Management";
-    ViewBag.CardTitle = "Create Category";
-    Layout = "~/Views/Shared/_Dashboard.cshtml";
-    <!-- Corrected layout path -->
+    ViewBag.PageTitle = "Category Management";
+    ViewBag.CardTitle = "Delete Category";
+
 }
 
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="DeleteCategory" method="post">
@@ -31,7 +29,7 @@
 </div>
 
 <div>
-    <a asp-action="Index" asp-controller="Category" class="btn btn-warning">Back To List</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

@@ -1,91 +1,105 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using myShop.DAL.Data;
-using myShop.DAL.Models;
-using myShop.DAL.Repositories.Abstraction;
-namespace myShop.PL.Areas.Admin.Controllers
+using myshop.DataAccess;
+using myshop.Entities.Models;
+using myshop.Entities.Repositories;
+
+namespace myshop.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        private  IunitOfWork _unitOfWork;
-        public CategoryController(IunitOfWork unitOfWork)
+        private IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _unitOfWork=unitOfWork;
+            _unitOfWork = unitOfWork;
         }
+
         public IActionResult Index()
         {
             var categories = _unitOfWork.Category.GetAll();
             return View(categories);
         }
+
         [HttpGet]
         public IActionResult Create()
         {
+
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category category)
         {
             if (ModelState.IsValid)
             {
-               _unitOfWork.Category.Add(category);
+                //_context.Categories.Add(category);
+                _unitOfWork.Category.Add(category);
+                //_context.SaveChanges();
                 _unitOfWork.Complete();
-                TempData["Create"] = "Data Has Created Successfully";
+                TempData["Create"] = "Item has Created Successfully";
                 return RedirectToAction("Index");
             }
             return View(category);
         }
+
         [HttpGet]
-        public IActionResult Edit(int? Id)
+        public IActionResult Edit(int? id)
         {
-            if (Id == null || Id == 0) 
+            if (id == null | id == 0)
             {
-                return NotFound();
+                NotFound();
             }
-            Category category=_unitOfWork.Category.GetFirstOrDefault(x=>x.Id==Id);
-            return View(category);
+            //var categoryIndb = _context.Categories.Find(id);
+
+            var categoryIndb = _unitOfWork.Category.GetFirstorDefault(x => x.Id == id);
+
+            return View(categoryIndb);
         }
+
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Edit(Category category)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
+                //_context.Categories.Update(category);
+
                 _unitOfWork.Category.Update(category);
                 _unitOfWork.Complete();
-                TempData["Update"] = "Data Has Updated Successfully";
-
+                //_context.SaveChanges();
+                TempData["Update"] = "Data has Updated Successfully";
                 return RedirectToAction("Index");
             }
             return View(category);
         }
+
         [HttpGet]
-        public IActionResult Delete(int? Id)
+        public IActionResult Delete(int? id)
         {
-            if (Id == null || Id == 0)
+            if (id == null | id == 0)
             {
-                return NotFound();
+                NotFound();
             }
-            Category category = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == Id);
+            var categoryIndb = _unitOfWork.Category.GetFirstorDefault(x => x.Id == id);
 
-            return View(category);
+            return View(categoryIndb);
         }
-        [HttpPost]
-        public IActionResult DeleteCategory(int? Id)
-        {
-            if (Id == null || Id == 0)
-            {
-                return NotFound();
-            }
-            Category category = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == Id);
-            if (category != null)
-            {
-                _unitOfWork.Category.Remove(category);
-                _unitOfWork.Complete();
-                TempData["Delete"] = "Data Has Deleted Successfully";
 
-                return RedirectToAction("Index");
+        [HttpPost]
+        public IActionResult DeleteCategory(int? id)
+        {
+            var categoryIndb = _unitOfWork.Category.GetFirstorDefault(x => x.Id == id);
+            if (categoryIndb == null)
+            {
+                NotFound();
             }
-            return NotFound();
+            _unitOfWork.Category.Remove(categoryIndb);
+            //_context.Categories.Remove(categoryIndb);
+            //_context.SaveChanges();
+            _unitOfWork.Complete();
+            TempData["Delete"] = "Item has Deleted Successfully";
+            return RedirectToAction("Index");
         }
     }
 }
