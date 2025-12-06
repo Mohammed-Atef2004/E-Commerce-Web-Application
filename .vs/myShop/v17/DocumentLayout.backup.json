@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\visual-studio-programs\\E-Commerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\Migrations\\20251206104950_newdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:myshop.DataAccess\\Migrations\\20251206104950_newdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E81509D0-95E0-40B3-9588-5213370F33D4}|myshop.Web\\myshop.Web.csproj|d:\\visual-studio-programs\\e-commerce\\myshop.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E81509D0-95E0-40B3-9588-5213370F33D4}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E81509D0-95E0-40B3-9588-5213370F33D4}|myshop.Web\\myshop.Web.csproj|d:\\visual-studio-programs\\e-commerce\\myshop.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E81509D0-95E0-40B3-9588-5213370F33D4}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual-studio-programs\\E-Commerce\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E81509D0-95E0-40B3-9588-5213370F33D4}|myshop.Web\\myshop.Web.csproj|d:\\visual-studio-programs\\e-commerce\\myshop.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E81509D0-95E0-40B3-9588-5213370F33D4}|myshop.Web\\myshop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6711CC90-DA24-40ED-B845-5655C8328B53}|myshop.DataAccess\\myshop.DataAccess.csproj|d:\\visual-studio-programs\\e-commerce\\myshop.dataaccess\\migrations\\20231120061040_addorderstbles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6711CC90-DA24-40ED-B845-5655C8328B53}|myshop.DataAccess\\myshop.DataAccess.csproj|solutionrelative:myshop.dataaccess\\migrations\\20231120061040_addorderstbles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,25 +51,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20251206104950_newdatabase.cs",
+              "DocumentMoniker": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\Migrations\\20251206104950_newdatabase.cs",
+              "RelativeDocumentMoniker": "myshop.DataAccess\\Migrations\\20251206104950_newdatabase.cs",
+              "ToolTip": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\Migrations\\20251206104950_newdatabase.cs",
+              "RelativeToolTip": "myshop.DataAccess\\Migrations\\20251206104950_newdatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:49:50.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "myshop.Web\\appsettings.Development.json",
+              "ToolTip": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\appsettings.Development.json",
+              "RelativeToolTip": "myshop.Web\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-06T10:44:25.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\visual-studio-programs\\E-Commerce\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\visual-studio-programs\\E-Commerce\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAqwHcBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-06T10:39:02.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20231120061040_AddOrdersTbles.cs",
+              "DocumentMoniker": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\Migrations\\20231120061040_AddOrdersTbles.cs",
+              "RelativeDocumentMoniker": "myshop.DataAccess\\Migrations\\20231120061040_AddOrdersTbles.cs",
+              "ToolTip": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\Migrations\\20231120061040_AddOrdersTbles.cs",
+              "RelativeToolTip": "myshop.DataAccess\\Migrations\\20231120061040_AddOrdersTbles.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T09:53:08.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\appsettings.json",
               "RelativeDocumentMoniker": "myshop.Web\\appsettings.json",
               "ToolTip": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\appsettings.json",
               "RelativeToolTip": "myshop.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-05T23:01:09.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
               "ToolTip": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeToolTip": "myshop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAGUAAAAAjGZmZuYWwG8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAABQAAAAApwHEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T22:58:08.066Z",
               "EditorCaption": ""

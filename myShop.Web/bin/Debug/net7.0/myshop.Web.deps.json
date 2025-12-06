@@ -3450,7 +3450,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
-          "myshop.Entities": "1.0.0"
+          "myshop.Entities": "1.0.0",
+          "myshop.Utilities": "1.0.0"
         },
         "runtime": {
           "myshop.DataAccess.dll": {

@@ -34,6 +34,9 @@
             "projectReferences": {
               "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj": {
                 "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj"
+              },
+              "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj": {
+                "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj"
               }
             }
           }

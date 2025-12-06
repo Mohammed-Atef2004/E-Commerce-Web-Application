@@ -186,3 +186,5 @@ D:\visual-studio-programs\E-Commerce\myshop.DataAccess\obj\Debug\net7.0\refint\m
 D:\visual-studio-programs\E-Commerce\myshop.DataAccess\obj\Debug\net7.0\myshop.DataAccess.pdb
 D:\visual-studio-programs\E-Commerce\myshop.DataAccess\obj\Debug\net7.0\myshop.DataAccess.genruntimeconfig.cache
 D:\visual-studio-programs\E-Commerce\myshop.DataAccess\obj\Debug\net7.0\ref\myshop.DataAccess.dll
+D:\visual-studio-programs\E-Commerce\myshop.DataAccess\bin\Debug\net7.0\myshop.Utilities.dll
+D:\visual-studio-programs\E-Commerce\myshop.DataAccess\bin\Debug\net7.0\myshop.Utilities.pdb
