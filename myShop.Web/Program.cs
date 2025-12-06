@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using myshop.Utilities;
 using Stripe;
+using myshop.Entities.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +18,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
     )) ;
 builder.Services.Configure<StripeData>(builder.Configuration.GetSection("stripe"));
 
-builder.Services.AddIdentity<IdentityUser,IdentityRole>(
+builder.Services.AddIdentity<ApplicationUser,IdentityRole>(
     options=>options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(4)
     ).AddDefaultTokenProviders().AddDefaultUI()
     .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -29,7 +30,42 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 
+async Task SeedAdminAsync(IApplicationBuilder app)
+{
+    var scope = app.ApplicationServices.CreateScope();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+    string email = "admin@gmail.com";
+    string password = "Admin@123";
+
+    // Role
+    if (!await roleManager.RoleExistsAsync("Admin"))
+        await roleManager.CreateAsync(new IdentityRole("Admin"));
+
+    // User
+    var admin = await userManager.FindByEmailAsync(email);
+    if (admin == null)
+    {
+        admin = new ApplicationUser
+        {
+            UserName = email,
+            Email = email,
+            EmailConfirmed = true,
+            Address = "Admin Address",
+            City = "Cairo"
+        };
+
+        await userManager.CreateAsync(admin, password);
+        await userManager.AddToRoleAsync(admin, "Admin");
+    }
+}
 var app = builder.Build();
+await SeedAdminAsync(app);
+
+
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
