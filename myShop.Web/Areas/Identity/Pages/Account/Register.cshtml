@@ -1,123 +1,234 @@
 ﻿@page
-@using myshop.Utilities;
+@using myshop.Utilities
 @model RegisterModel
 
-
-<h1>@ViewData["Title"]</h1>
-
-
 <style>
-    .imgdiv{
-        background-size: 100% 100%;
+    body {
+        background: #f5f7fa;
+        color: #333;
+        font-family: 'Poppins', sans-serif;
+        min-height: 100vh;
+        animation: fadeIn 1s ease-in-out;
     }
 
-    .loginimg{
-        height:auto;
-        max-width:100%;
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
 
+    .register-container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .register-card {
+        background: #f0f2f5;
+        border-radius: 20px;
+        padding: 2.5rem;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        animation: fadeInUp 1s ease;
+        width: 100%;
+        max-width: 450px;
+        border: 1px solid #e1e5eb;
+    }
+
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .register-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .register-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+        .register-header h3 {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .register-header p {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+    .form-floating label {
+        color: #555;
+    }
+
+    .form-control {
+        background: #ffffff;
+        border: 1px solid #d1d9e6;
+        color: #333;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            background: #ffffff;
+            color: #333;
+            box-shadow: 0 0 8px rgba(255, 107, 107, 0.2);
+            border: 1px solid #ff416c;
+        }
+
+    .btn-register {
+        background: rgba(55, 55, 200, 0.5);
+        border: none;
+        border-radius: 30px;
+        padding: 0.9rem;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+        .btn-register:hover {
+            background: linear-gradient(45deg, #00c6ff, #ff416c);
+            transform: scale(1.05);
+            box-shadow: 0px 5px 20px rgba(55, 55, 200, 0.5);
+        }
+
+    .card-footer {
+        background: transparent;
+        border-top: none;
+        color: #666;
+        text-align: center;
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid #e0e0e0;
+    }
+
+        .card-footer a {
+            color: #ff416c;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 600;
+        }
+
+            .card-footer a:hover {
+                color: #00c6ff;
+                text-decoration: underline;
+            }
+
+    .role-radio {
+        margin: 1.5rem 0;
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+        .role-radio input[type="radio"] {
+            margin-right: 0.5rem;
+            accent-color: #ff416c;
+        }
+
+        .role-radio label {
+            color: #555;
+            cursor: pointer;
+        }
 </style>
 
-<section class="py-5">
-    <div class="container px-4 px-lg-5 mt-5">
-<div class="row">
-    <div class="col-md-5">
+<div class="register-container">
+    <div class="register-card">
+        <div class="register-header">
+            <h3>@(User.IsInRole(SD.AdminRole) ? "Create New User" : "Create Account")</h3>
+            <p>@(User.IsInRole(SD.AdminRole) ? "Create a new user account" : "Register to get started")</p>
+        </div>
+
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h2>Create a new account.</h2>
-            <hr />
-            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true" placeholder="name" />
+                <input asp-for="Input.Name" class="form-control" placeholder="Name" />
                 <label asp-for="Input.Name">Name</label>
                 <span asp-validation-for="Input.Name" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.Address" class="form-control" autocomplete="Address" aria-required="true" placeholder="Address" />
+                <input asp-for="Input.Address" class="form-control" placeholder="Address" />
                 <label asp-for="Input.Address">Address</label>
                 <span asp-validation-for="Input.Address" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.City" class="form-control" autocomplete="City" aria-required="true" placeholder="City" />
+                <input asp-for="Input.City" class="form-control" placeholder="City" />
                 <label asp-for="Input.City">City</label>
                 <span asp-validation-for="Input.City" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <input asp-for="Input.Email" class="form-control" placeholder="Email" />
                 <label asp-for="Input.Email">Email</label>
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
+
             <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <input asp-for="Input.Password" class="form-control" placeholder="Password" />
                 <label asp-for="Input.Password">Password</label>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
+
             <div class="form-floating mb-3">
-                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <input asp-for="Input.ConfirmPassword" class="form-control" placeholder="Confirm Password" />
                 <label asp-for="Input.ConfirmPassword">Confirm Password</label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
 
             @if (User.IsInRole(SD.AdminRole))
             {
-                <input type="radio" value="@SD.AdminRole" name="RoleRadio" /> @SD.AdminRole
-                <input type="radio" value="@SD.EditorRole" name="RoleRadio" /> @SD.EditorRole
-                <input type="radio" value="@SD.CustomerRole" name="RoleRadio" /> @SD.CustomerRole
+                <div class="role-radio">
+                    <label>
+                        <input type="radio" value="@SD.AdminRole" name="RoleRadio" /> @SD.AdminRole
+                    </label>
+                    <label>
+                        <input type="radio" value="@SD.EditorRole" name="RoleRadio" /> @SD.EditorRole
+                    </label>
+                    <label>
+                        <input type="radio" value="@SD.CustomerRole" name="RoleRadio" /> @SD.CustomerRole
+                    </label>
+                </div>
             }
-            
 
-                    @if (User.IsInRole(SD.AdminRole))
-                    {
-                        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Create new User</button>
-                    }else{
-                        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
-                    }
-
-           
-                      
+            <button id="registerSubmit" type="submit" class="btn-register">
+                @(User.IsInRole(SD.AdminRole) ? "Create New User" : "Register")
+            </button>
         </form>
-    </div>
-    <div class="col-md-6 col-md-offset-2">
-        <section>
-            <div class="imgdiv">
-                 <img class="loginimg" src="~/img/login@4x.png" />
+
+        @if (!User.IsInRole(SD.AdminRole))
+        {
+            <div class="card-footer">
+                Already have an account? <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Login here</a>
             </div>
-                    
-            @* <h3>Use another service to register.</h3>
-            <hr />
-            @{
-                if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
-                            about setting up this ASP.NET application to support logging in via external services</a>.
-                        </p>
-                    </div>
-                }
-                else
-                {
-                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                        <div>
-                            <p>
-                                @foreach (var provider in Model.ExternalLogins!)
-                                {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                }
-                            </p>
-                        </div>
-                    </form>
-                }
-            } *@
-        </section>
+        }
     </div>
 </div>
 
-</div>
-</section>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

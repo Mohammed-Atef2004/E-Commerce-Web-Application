@@ -6903,11 +6903,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
+      "projectUniqueName": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
       "projectName": "myshop.Entities",
-      "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
+      "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\obj\\",
+      "outputPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

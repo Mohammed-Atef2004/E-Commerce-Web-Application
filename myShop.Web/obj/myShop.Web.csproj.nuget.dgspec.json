@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj": {}
+    "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj": {}
   },
   "projects": {
-    "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj": {
+    "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj",
+        "projectUniqueName": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj",
         "projectName": "myshop.DataAccess",
-        "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj",
+        "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\obj\\",
+        "outputPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj": {
-                "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj"
+              "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj": {
+                "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj"
               },
-              "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj": {
-                "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj"
+              "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj": {
+                "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj": {
+    "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
+        "projectUniqueName": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
         "projectName": "myshop.Entities",
-        "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
+        "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\myshop.Entities.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Entities\\obj\\",
+        "outputPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -171,14 +171,14 @@
         }
       }
     },
-    "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj": {
+    "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj",
+        "projectUniqueName": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj",
         "projectName": "myshop.Utilities",
-        "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj",
+        "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\obj\\",
+        "outputPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -242,14 +242,14 @@
         }
       }
     },
-    "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj": {
+    "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj",
+        "projectUniqueName": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj",
         "projectName": "myshop.Web",
-        "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj",
+        "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Web\\myshop.Web.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Web\\obj\\",
+        "outputPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -270,11 +270,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj": {
-                "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj"
+              "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj": {
+                "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.DataAccess\\myshop.DataAccess.csproj"
               },
-              "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj": {
-                "projectPath": "D:\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj"
+              "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj": {
+                "projectPath": "D:\\GP\\visual-studio-programs\\E-Commerce\\myshop.Utilities\\myshop.Utilities.csproj"
               }
             }
           }

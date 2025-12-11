@@ -131,3 +131,16 @@ D:\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Ent
 D:\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\refint\myshop.Entities.dll
 D:\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.pdb
 D:\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\ref\myshop.Entities.dll
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\bin\Debug\net7.0\myshop.Entities.deps.json
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\bin\Debug\net7.0\myshop.Entities.dll
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\bin\Debug\net7.0\myshop.Entities.pdb
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.csproj.AssemblyReference.cache
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.AssemblyInfoInputs.cache
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.AssemblyInfo.cs
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.csproj.CoreCompileInputs.cache
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.sourcelink.json
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.dll
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\refint\myshop.Entities.dll
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\myshop.Entities.pdb
+D:\GP\visual-studio-programs\E-Commerce\myshop.Entities\obj\Debug\net7.0\ref\myshop.Entities.dll

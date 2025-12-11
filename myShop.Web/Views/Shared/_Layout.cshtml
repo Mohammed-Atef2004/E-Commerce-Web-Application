@@ -7,12 +7,88 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/myshop.Web.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #eef2f7 0%, #d9e4f5 40%, #c3dafe 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @@keyframes fadeIn {
+            from
+
+        {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+
+        }
+
+        nav.navbar {
+            background: linear-gradient(90deg, #ffffff 0%, #f8fbff 100%) !important;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+            padding: 1rem 0;
+            animation: slideDown 0.8s ease;
+        }
+
+        @@keyframes slideDown {
+            from
+
+        {
+            transform: translateY(-40px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        }
+
+        .nav-link-box {
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+            color: #fff !important;
+            padding: 0.6rem 1.2rem;
+            margin-left: 10px;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+            transition: 0.3s;
+            text-align: center;
+            font-weight: 600;
+        }
+
+            .nav-link-box:hover {
+                background: linear-gradient(135deg, #005bea 0%, #00c6fb 100%);
+                transform: translateY(-4px);
+                box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+            }
+
+            .nav-link-box.home-box {
+                padding: 0.9rem 1.8rem;
+                font-size: 1.1rem;
+            }
+
+        footer {
+            background: linear-gradient(90deg, #0b0b0b, #1a1a1a);
+            color: #fff;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">myshop.Web</a>
+                <a class="navbar-brand nav-link-box home-box" asp-area="" asp-controller="Home" asp-action="Index">myshop.Web</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,27 +96,29 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link-box nav-link home-box" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link-box nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer">
         <div class="container">
-            &copy; 2023 - myshop.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - myshop.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-white">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -28,6 +28,8 @@ builder.Services.AddIdentity<ApplicationUser,IdentityRole>(
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+builder.Services.AddHttpContextAccessor();
+
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
