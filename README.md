@@ -287,26 +287,33 @@ myshop/
 ## 📸 Screenshots
 
 ### Home Page
-<img width="1346" height="631" alt="image" src="https://github.com/user-attachments/assets/f7d50d3c-1fbe-44b9-b79e-2d704e819756" />
+<img width="747" height="598" alt="image" src="https://github.com/user-attachments/assets/84dbd6fa-99a0-4698-b437-8506e215a6b6" />
+
+### Cart Page
+<img width="1349" height="640" alt="image" src="https://github.com/user-attachments/assets/9b59001b-7e32-4ebc-a3a9-561d45841612" />
 
 
 ### Placing Order
-<img width="1349" height="530" alt="image" src="https://github.com/user-attachments/assets/803f3497-17ba-4b48-9699-f40f26e48545" />
+<img width="1350" height="632" alt="image" src="https://github.com/user-attachments/assets/c4a6cc0a-6e5b-47e2-8fab-5b2f49fa1c86" />
 
 
 ### Admin Dashboard
-<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/a66603fb-d7e0-4b41-8c67-06a6001c0064" />
-
-
-### Product Bying
-<img width="1350" height="637" alt="image" src="https://github.com/user-attachments/assets/c48e79e1-5890-4cd8-85e9-fab44b570c76" />
-
+<img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/42da95c7-c32a-472c-820d-ad6d0e7eb75f" />
 
 ### Chopping Cart 
-<img width="1331" height="583" alt="image" src="https://github.com/user-attachments/assets/f7b7ad17-5b98-4356-89c3-f9cd6a79dba0" />
+<img width="931" height="606" alt="image" src="https://github.com/user-attachments/assets/1de12715-47ec-426c-9060-ec1d9d1088fb" />
 
 ### Integrating with Stripe
 <img width="1343" height="621" alt="image" src="https://github.com/user-attachments/assets/71f02501-c03b-4ea0-ac24-5538efb56632" />
+
+### Products Management
+<img width="1350" height="641" alt="image" src="https://github.com/user-attachments/assets/1c60c745-63d6-4aed-903e-de907a62d465" />
+
+### Categories Management
+<img width="1361" height="641" alt="image" src="https://github.com/user-attachments/assets/8769829c-0595-405e-a586-63fbdde26573" />
+
+### Users Management
+<img width="1366" height="641" alt="image" src="https://github.com/user-attachments/assets/c1a8c808-8d54-452e-a4fe-c707848396ba" />
 
 
 ---
