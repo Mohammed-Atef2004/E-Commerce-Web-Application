@@ -1,5 +1,4 @@
 # 🛒 MyShop E-Commerce Platform
-
 A comprehensive E-commerce solution built with **ASP.NET Core MVC**, implementing **N-Tier Architecture** principles with complete separation of concerns across multiple layers.
 
 [![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
